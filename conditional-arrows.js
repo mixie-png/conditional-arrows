@@ -5,7 +5,23 @@
 // If they are not older than 18, the output should be:
 // "Sorry! You must be 18 or older!"
 
+// implicit return
 const problem1 = age => age > 18 ? "You are good to go!" : "Sorry! You must be 18 or older!"
+
+// explicit return
+// const problem1 = age => {
+//     return age > 18 ? "You are good to go!" : "Sorry! You must be 18 or older!"
+// }
+
+// es5 way
+// function problem1(age) {
+//     if (age > 18) {
+//         return "You are good to go!"
+//     } else {
+//         return "Sorry! You must be 18 or older!"
+//     }
+// }
+
 // console.log(problem1(21))
 
 
